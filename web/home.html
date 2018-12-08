@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Similis</title>
+  <link rel="stylesheet" href="stylesheets/home.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+ <script src="scripts/jquery.min.js"></script>
+</head>
+<body>
+    <div class="blocker"></div>
+  <div class="navigation">
+    <img src="static/similisLogoColor.png" alt="Logo"/>
+    <h1>Similis</h1>
+    <h1 id="username"></h1>
+  </div>
+    <div id="MoreDetails">
+        <center>
+            <div class="progressShow">
+                <div id="firstCircle" class="progressCircle"></div>
+                <div id="secondCircle" class="progressCircle"></div>
+                <div id="thirdCircle" class="progressCircle"></div>
+            </div>
+        </center>
+        <div id="actualContent"></div>
+        <footer class="stayBottomMore">
+            <button id="cancelButton">Cancel</button>
+            <button id="submitButton">Submit</button>
+        </footer>
+    </div>
+  <div class="completeDiv">
+  <div id="settingsToggle"><img src="static/settings.png" alt="music" id="settingsToggleImg"></div>
+  <div id="moviesToggle"><img src="static/clapper.png" alt="movies" id="moviesToggleImg"></div>
+  <div id="booksToggle"><img src="static/quill.png" alt="books" id="booksToggleImg"></div>
+  <div id="musicToggle"><img src="static/music.png" alt="music" id="musicToggleImg"></div>
+    <div class="selectSide" >
+      <div class="knownSide">
+      </div>
+      <div class="unknownSide">
+      </div>
+    </div>
+  </div>
+  <div class="mainBlock">
+    <div class="friendsList"></div>
+    <div class="textArea">
+        <div class="messageDisplay">
+            <header id="friendNameIdentifier"></header>
+        </div>
+      <footer class="stayBottom">
+        <div>
+          <input type="text" placeholder="Type your message" id="messagePlace">
+          <div id="sendButton"><img src="static/send.png" alt="send" ></div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts/home.js"></script>
+</body>
+</html>

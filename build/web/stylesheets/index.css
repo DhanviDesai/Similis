@@ -1,0 +1,236 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #1C272B;
+  height: 100%;
+  position: absolute;
+}
+.mainDiv{
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  /*background-color: rgba(16,229,188,0.35);*/
+}
+.blocker{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.35);
+  display: none;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+}
+.loginSite{
+  width: 30%;
+  height: 150%;
+  position: absolute;
+  z-index: 400;
+  background: #1C272B;
+  border-radius:20px;
+  left: 35%;
+  top: 50%;
+  display: none;
+}
+.signupSite{
+  width: 30%;
+  height: 150%;
+  position: absolute;
+  z-index: 400;
+  background: #1C272B;
+  border-radius:20px;
+  left: 35%;
+  top: 50%;
+  display: none;
+}
+#logoSimilis{
+  height: 10%;
+  position: fixed;
+  left: 4%;
+  top: 5%;
+  display: block;
+}
+.colorHolder{
+  width:100%;
+  height:100%;
+  position: absolute;
+  box-shadow: 0.5px 0 rgba(0,0,0,0.25);
+}
+#pageName{
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+ text-transform: uppercase;
+  font-size: 300%;
+  position:absolute;
+  color: white;
+  left:8%;
+  top:4%;
+}
+#logIn{
+  width:10%;
+  height:25%;
+  font-size: 140%;
+  position: absolute;
+ font-family: 'Montserrat', sans-serif;
+  background-color: #1C272B;
+  border: 1px solid #10e5bc;
+  color: #10e5bc;
+  top:21%;
+  right:23%;
+}
+#logIn:hover{
+  cursor: pointer;
+}
+#signUp{
+  width:10%;
+  height:25%;
+  font-size: 140%;
+  position: absolute;
+ font-family: 'Montserrat', sans-serif;
+  background-color: #10e5bc;
+  color: #1C272B;
+  top:21%;
+  right:10%;
+  border: none;
+}
+#signUp:hover{
+  cursor: pointer;
+}
+.formInput{
+font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  height: 12%;
+  margin:2%;
+  text-align: center;
+  background-color: rgba(16,229,188,0.3);
+  font-size: 120%;
+  border: none;
+  border-radius: 20px;
+  color:rgba(255,255,255,0.4);
+}
+#enterName{
+font-family: 'Montserrat', sans-serif;
+color:#ffffff;
+font-size: 150%;
+}
+#placeForm{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.buttonSubmit{
+font-family: 'Montserrat', sans-serif;
+  background-color: #10e5bc;
+  border:none;
+  width: 40%;
+  height:10%;
+  font-size: 130%;
+  position: absolute;
+  color: #1C272B;
+  bottom : 20%;
+  left: 30%;
+}
+#signupbutton{
+  bottom:10%;
+}
+#usernameButton{
+  background-image: url("../static/user_image.png");
+  background-repeat: no-repeat;
+  background-position: 5px;
+  background-size: 8%;
+}
+#passwordButton{
+  background-image: url("../static/password_image.png");
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+  background-size: 8%;
+}
+#instructionsDiv{
+    margin-top:12%;
+font-family: 'Montserrat', sans-serif;
+color:#ffffff;
+font-size: 110%;
+    font-weight:normal;
+    
+}
+#instructionsDiv h4{
+    margin-left:15%;
+    margin-right:15%;
+}
+#moviesToggle{
+  width: 8%;
+  clear:left;
+  height: 30%;
+  margin-left: 5%;
+  border-radius: 50%;
+  margin-top: 1%;
+  text-align: center;
+  background: #10E5BC;
+  float:left;
+  margin-left: 45%;
+  margin-bottom: 3%;
+  margin-right: 7%;
+}
+#moviesToggle img{
+  width:60%;
+  height: 70%;
+  margin-top: 20%;
+  margin-right: 5%;
+}
+#booksToggle{
+  width: 8%;
+  clear:left;
+  height: 30%;
+  margin-left: 5%;
+  border-radius: 50%;
+  margin-top: 1%;
+  text-align: center;
+  background: #10E5BC;
+  float:left;
+  margin-left: 45%;
+  margin-bottom: 3%;
+  margin-right: 7%;
+}
+#booksToggle img{
+  width:60%;
+  height: 70%;
+  margin-top: 25%;
+  margin-right: 5%;
+}
+#musicToggle{
+  width: 8%;
+  clear:left;
+  height: 30%;
+  margin-left: 5%;
+  border-radius: 50%;
+  margin-top: 1%;
+  text-align: center;
+  background: #10E5BC;
+  float:left;
+  margin-left: 45%;
+  margin-bottom: 3%;
+  margin-right: 7%;
+}
+#musicToggle img{
+  width:60%;
+  height: 70%;
+  margin-top:25%;
+  margin-right: 5%;
+}
+.logoContainer{
+    display: inline-block;
+    float:left;
+    clear: left;
+    margin-left:25%;
+    vertical-align: central;
+}
+.logoContainer p{
+    margin-top:3%;
+}
+#bottomPlease{
+    float:left;
+    clear:left;
+    margin-top:5%;
+    margin-left:43%;
+}

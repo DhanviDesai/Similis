@@ -1,0 +1,66 @@
+<!--#def8f3-->
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="stylesheets/index.css">
+ <script src="scripts/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald" rel="stylesheet">
+</head>
+<body>
+  <div class="blocker"></div>
+  <div class="mainDiv">
+    <div class="buttonsDiv">
+      <button id="logIn">Login</button>
+      <button id="signUp">Sign Up</button>
+    </div>
+    <img src="static/similisLogoColor.png" alt="" id="logoSimilis">
+    <h1 id="pageName">Similis</h1>
+    <div class="loginSite">
+        <form method="post" action="IndexServlet">
+        <center>
+          <div id="placeForm">
+            <p id="enterName">Login to your SIMILIS account</p>
+            <input type="hidden" name="command" value="login">
+            <input type="text" placeholder="Username" name="username" class="formInput" id="usernameButton"> <br>
+            <input type="password" placeholder="Password" name="password" class="formInput" id="passwordButton"> <br>
+            <button class="buttonSubmit">Log In</button>
+        <div>
+      </center>
+      </form>
+    </div>
+      <div class="signupSite">
+          <form method="post" action="IndexServlet">
+          <center>
+            <div id="placeForm">
+              <p id="enterName">Sign up to join the SIMILIS family</p>
+              <input type="hidden" name="command" value="signup">
+              <input type="text" placeholder="Username" name="username" class="formInput" id="usernameButton"> <br>
+              <input type="password" placeholder="Password" name="password" class="formInput" id="passwordButton"> <br>
+              <input type="password" placeholder="Confirm Password" name="confirm_password" class="formInput" id="passwordButton"> <br>
+              <button class="buttonSubmit" id="signupbutton">Sign Up</button>
+          </div>
+        </center>
+        </form>
+      </div>
+      <div id="instructionsDiv">
+          <center>
+        <h1>What is SIMILIS ?</h1>
+        <h4>SIMILIS is where you find yourself. Actually, you find people who are very similar to you.
+            SIMILIS does the job of finding them for you. It so happens that it just needs very basic information about you.
+        Like,</h4>
+          </center>
+          
+          <div class="logoContainer"><div id="moviesToggle"><img src="static/clapper.png" alt="movies" id="moviesToggleImg"></div>
+              <h4>Your Favorite Movies</h4></div>
+          <div class="logoContainer"><div id="booksToggle"><img src="static/quill.png" alt="books" id="booksToggleImg"></div>
+              <h4>Your Favorite Books</h4></div>
+          <div class="logoContainer"><div id="musicToggle"><img src="static/music.png" alt="music" id="musicToggleImg"></div>
+              <h4>Your Favorite Music Artists</h4></div>
+          <center>
+              <p id="bottomPlease">Login or Signup for more!</p>
+          </center>
+      </div>
+<script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>

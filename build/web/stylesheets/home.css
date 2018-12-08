@@ -1,0 +1,384 @@
+@charset "UTF-8";
+body{
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%;
+  max-height: 100%;
+  background-color: #1C272B;
+  max-width: 100%;
+}
+.navigation{
+  height:auto;
+  width:100%;
+  height:10%;
+  margin-top:-1.8%;
+}
+.navigation img{
+  float:left;
+  height:70%;
+  margin-top:0.5%;
+  margin-right:0.5%;
+}
+.navigation h1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+.completeDiv{
+  background: #1c272b;;
+  box-shadow: 0 0.5px rgba(0,0,0,0.25);
+  height:10%;
+}
+#username{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    float:right;
+    margin-top:-4%;
+}
+.selectSide{
+  margin-left: 32%;
+}
+#profilePic{
+  position: relative;
+  float: right;
+  margin: 0.5%;
+  margin-top: 1%;
+  width: 3%;
+  height: 5%;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.knownSide{
+  width: 10%;
+  height: 7%;
+  display: inline-block;
+  text-align: center;
+}
+.unknownSide{
+  width: 10%;
+  height: 7%;
+  text-align: center;
+  display: inline-block;
+}
+.mainBlock{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:80%;
+}
+.friendsList{
+  position: relative;
+  overflow: auto;
+  display: inline-block;
+  background: #34393b;
+  z-index: 10;
+  box-shadow: 0.5px 0 rgba(0,0,0,0.1);
+  height: 100%;
+  width:25%;
+}
+.textArea{
+  position: relative;
+  margin-left:-4px;
+  height: 100%;
+  display: inline-block;
+  width: 75%;
+}
+.messageDisplay{
+    position:absolute;
+    top:0;
+  box-shadow: 0 0.5px rgba(0,0,0,0.1);
+  background: #485053;
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+}
+.stayBottom{
+    position:absolute;
+    bottom:0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #485053;
+  width: 100%;
+  vertical-align: middle;
+  height: 10%;
+}
+#messagePlace{
+  font-family: 'Montserrat', sans-serif;
+  width: 91%;
+  margin-left: 2%;
+  float: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  border: none;
+  color: #10e5bc;
+  padding: 0.5%;
+  background: none;
+  font-size: 120%;
+  float:left;
+}
+#sendButton{
+  width: 3%;
+  height:50%;
+  float: right;
+  text-align: center;
+  margin-top: 1.5%;
+  margin-right:2%;
+  margin-bottom: 1.5%;
+}
+#sendButton img{
+  width: 100%;
+  height: 100%;
+}
+#moviesToggle{
+  width: 3.5%;
+  height: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 50%;
+  text-align: center;
+  float: right;
+  margin-top:1%;
+  background: #10E5BC;
+}
+#moviesToggle img{
+  width:60%;
+  height: 70%;
+  margin-top: 5%;
+  margin-right: 4%;
+}
+#moviesToggle:hover{
+  cursor: pointer;
+}
+#booksToggle{
+  width: 3.5%;
+  height: 50%;
+  margin-left: 5%;
+  border-radius: 50%;
+  float: right;
+  margin-top:1%;
+  text-align: center;
+  background: #10E5BC;
+}
+#booksToggle img{
+  width:60%;
+  height: 70%;
+  margin-top: 7%;
+  margin-right: 5%;
+}
+#booksToggle:hover{
+  cursor: pointer;
+}
+#musicToggle{
+  width: 3.5%;
+  height: 50%;
+  margin-left: 5%;
+  border-radius: 50%;
+  float: right;
+  margin-top: 1%;
+  text-align: center;
+  background: #10E5BC;
+}
+#musicToggle img{
+  width:60%;
+  height: 70%;
+  margin-top:8%;
+  margin-right: 7%;
+}
+#musicToggle:hover{
+  cursor: pointer;
+}
+#settingsToggle{
+  width: 3.5%;
+  height: 50%;
+  border-radius: 50%;
+  float: right;
+  margin-top:1%;
+  text-align: center;
+  background: #10E5BC;
+}
+#settingsToggle img{
+  width:60%;
+  height: 70%;
+  margin-top:8%;
+}
+#settingsToggle:hover{
+  cursor: pointer;
+}
+.friend{
+  padding: 0;
+  position: relative;
+  border-radius: 0%;
+  display: table-cell;
+  border-bottom: 1px solid #10e5bc;
+  float: left;
+  vertical-align: middle;
+  text-align: center;
+  height:15%;
+  width:100%;
+}
+.friend:hover{
+    background-color:rgba(16,229,188,0.4); 
+    cursor: pointer;
+    border:none;
+}
+#friendProPic{
+  border-radius: 50%;
+  width: 12%;
+  height: 45%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  float: center;
+}
+#friendName{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    margin: 1%;
+  font-size: 110%;
+  float: center;
+}
+#MoreDetails{
+  position:absolute;
+  z-index: 300;
+  width:50%;
+  height:80%;
+  left: 25%;
+  border-radius: 20px;
+  top:10%;
+  display:none;
+  background: #1C272B;
+}
+.blocker{
+    position:absolute;
+    z-index: 100;
+    background: rgba(255,255,255,0.5);
+    width:100%;
+    top:0;
+    left:0;
+    height:100%;
+    display:none;
+}
+.progressShow{
+    width:50%;
+    height:50%;
+    display: none;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+.progressCircle{
+    width:12%;
+    height:12%;
+    border-radius:50%;
+    background: #10e5bc;
+    float:left;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+.stayBottomMore{
+    position:absolute;
+    height:10%;
+    width: 100%;
+    bottom:0;
+}
+#actualContent{
+    width:100%;
+    height:90%;
+    overflow: auto;
+    display: none;
+}
+#contentImage{
+    width:100%;
+    height:65%;
+}
+#contentText{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+#content{
+    width:32%;
+    height:50%;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+    float: left;
+}
+#submitButton{
+    width:20%;
+    height:90%;
+    background: #10E5BC;
+    color:#1C272B;
+    border:none;
+    margin-top:0.5%;
+    margin-bottom: 0.5%;
+    float:right;
+    font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 3%;
+}
+#cancelButton{
+    width:20%;
+    height:90%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    background: #1C272B;
+    color:#10e5bc;
+    border:1px solid #10e5bc;
+    float:right;
+    font-size: 120%;
+    margin-right: 3%;
+    font-family: 'Montserrat', sans-serif;    
+}
+#friendNameIdentifier{
+    position: fixed;
+    width:100%;
+    height:8%;
+    z-index: 200;
+    background:rgba(16,229,188,0.35);
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+#friendNameIdentifier img{
+    width:6%;
+    border-radius: 50%;
+    height:90%;
+    float:left;
+    margin-top: 0.25%;
+    margin-left: 0.5%;
+    margin-bottom: 0.25%;
+    margin-right: 1%;
+}
+#sentMessage{
+    background: #10e5bc;
+    color:#1C272B;
+    font-family: 'Montserrat', sans-serif;
+    font-size:110%;
+    padding-left:1%;
+    padding-right: 1%;
+    margin-right: 1%;
+    margin-top:1%;
+    float:right;
+    clear:right;
+    border-radius: 10px;
+}
+#receivedMessage{
+    background: #10e5bc;
+    color:#1C272B;
+    font-family: 'Montserrat', sans-serif;
+    font-size:110%;
+    padding-left:1%;
+    padding-right: 1%;
+    margin-left: 1%;
+    margin-top:1%;
+    float:left;
+    clear:left;
+    border-radius: 10px;
+    
+}
+#friendNameList{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+  font-size: 110%;
+  float: center;
+}
